@@ -13,8 +13,6 @@ function Hero() {
         </p>
         <h1>
           Find Your Next Pair.
-          <br />
-          Without Leaving Home.
         </h1>
         <p className="hero-description">
           Discover live sneaker inventory from trusted local retailers,
