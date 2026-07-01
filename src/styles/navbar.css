@@ -89,5 +89,6 @@
 
   .hamburger {
     display: block;
+    z-index: 9999;
   }
 }

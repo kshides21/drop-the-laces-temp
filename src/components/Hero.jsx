@@ -4,7 +4,7 @@ import appPreview from "../assets/app-preview.png"; // We'll add this image next
 
 function Hero() {
   return (
-    <section className="hero">
+    <section id="about" className="hero">
 
       <div className="hero-content">
 
