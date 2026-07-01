@@ -1,10 +1,13 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Partners from "./components/Partners";
-import Brands from "./components/Brands";
-import AppDownload from "./components/AppDownload";
-import Footer from "./components/Footer";
+import "./styles/navbar.css";
+import "./styles/hero.css";
+import "./styles/sections.css";
+import Navbar from "./Components/Navbar";
+import Hero from "./Components/Hero";
+import About from "./Components/About";
+import Partners from "./Components/Partners";
+import Brands from "./Components/Brands";
+import AppDownload from "./Components/AppDownload";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
