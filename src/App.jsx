@@ -1,9 +1,9 @@
-import Navbar from "./Components/Navbar";
-import Hero from "./Components/Hero";
-import Brands from "./Components/Brands";
-import Partners from "./Components/Partners";
-import AppDownload from "./Components/AppDownload";
-import Footer from "./Components/Footer";
+import Navbar from "./components/Navbar.jsx";
+import Hero from "./components/Hero.jsx";
+import Brands from "./components/Brands.jsx";
+import Partners from "./components/Partners.jsx";
+import AppDownload from "./components/AppDownload.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
