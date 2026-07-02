@@ -204,10 +204,6 @@
 }
 
 @media (max-width: 640px) {
-  
-  .download-link {
-    min-width: 12rem;
-  }
   .brand-card {
     width: 40%;
     height: 120px;
