@@ -14,10 +14,10 @@ function Navbar() {
       </div>
 
       <nav className={`nav-links ${open ? "active" : ""}`}>
-        <a href="#about">About</a>
-        <a href="#brands">Brands</a>
-        <a href="#partners">Partner Stores</a>
-        <a href="#download">Download</a>
+        <a onClick={() => setOpen(!open)} href="#about">About</a>
+        <a onClick={() => setOpen(!open)} href="#brands">Brands</a>
+        <a onClick={() => setOpen(!open)} href="#partners">Partner Stores</a>
+        <a onClick={() => setOpen(!open)} href="#download">Download</a>
       </nav>
 
       <a href="#download">
