@@ -83,7 +83,7 @@
 /* Download Section */
 .download-section {
   max-width: 84rem;
-  margin: 4rem;
+  margin: auto;
   padding: 4rem 1.5rem;
   margin-top: 3rem;
   border-radius: 2rem;
@@ -155,7 +155,6 @@
   align-items: center;
   justify-content: center;
   min-width: 17rem;
-  width: 100%;
   max-width: 20rem;
   padding: 1.25rem 1.5rem;
   border-radius: 9999px;
@@ -195,16 +194,20 @@
   color: #ffffff;
 }
 
-@media (min-width: 640px) {
-  .download-section {
-    padding: 5rem 2rem;
-  }
+.footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #f9fafb;
+  color: #6b7280;
+  font-size: 0.875rem;
+}
 
+@media (min-width: 640px) {
   .download-actions {
     flex-direction: row;
   }
   .download-link {
-      min-width: 12rem;
+    min-width: 12rem;
   }
 }
 
