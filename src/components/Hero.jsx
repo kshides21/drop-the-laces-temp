@@ -41,6 +41,7 @@ function Hero() {
         <img
           src={appPreview}
           alt="Drop The Laces App"
+          onClick={() => window.open("#download", "_self")}
         />
       </div>
 
