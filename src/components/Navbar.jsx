@@ -13,16 +13,19 @@ function Navbar() {
 
       <nav className={`nav-links ${open ? "active" : ""}`}>
         <a href="#about">About</a>
-        <a href="#partners">Partner Stores</a>
         <a href="#brands">Brands</a>
+        <a href="#partners">Partner Stores</a>
         <a href="#download">Download</a>
       </nav>
 
+      <a href="#download">
       <button
         className="download-btn"
       >
         Get the App
       </button>
+        </a>
+
 
       <div
         className="hamburger"

@@ -20,7 +20,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;    
+  gap: 2rem;
 }
 
 /* Responsive grid */
@@ -78,4 +78,141 @@
 
 .brand-card:hover .brand-name {
   color: #ec4899;
+}
+
+/* Download Section */
+.download-section {
+  max-width: 84rem;
+  margin: 4rem;
+  padding: 4rem 1.5rem;
+  margin-top: 3rem;
+  border-radius: 2rem;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.95),
+    rgba(245, 245, 245, 0.9)
+  );
+  box-shadow: 0 30px 80px rgba(15, 23, 42, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+.download-section::before {
+  content: "";
+  position: absolute;
+  top: -2rem;
+  right: -4rem;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+  background: rgba(236, 72, 153, 0.12);
+}
+
+.download-panel {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  max-width: 52rem;
+  margin: 4rem auto;
+}
+
+.download-label {
+  text-transform: uppercase;
+  letter-spacing: 0.24em;
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+.download-heading {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.02;
+  letter-spacing: -0.04em;
+  margin-bottom: 1rem;
+  color: #111827;
+}
+
+.download-copy {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  max-width: 40rem;
+  margin: 0 auto;
+  color: #4b5563;
+}
+
+.download-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2.5rem;
+}
+
+.download-link {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 17rem;
+  width: 100%;
+  max-width: 20rem;
+  padding: 1.25rem 1.5rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  transition:
+    transform 250ms ease,
+    box-shadow 250ms ease,
+    background-color 250ms ease;
+}
+
+.download-link span {
+  display: block;
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  opacity: 0.88;
+  margin-bottom: 0.35rem;
+}
+
+.download-link strong {
+  font-size: 1.1rem;
+  line-height: 1.3;
+}
+
+.download-link:hover {
+  transform: translateY(-0.12rem);
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.12);
+}
+
+.app-store {
+  background: #111827;
+  color: #ffffff;
+}
+
+.google-play {
+  background: #ec4899;
+  color: #ffffff;
+}
+
+@media (min-width: 640px) {
+  .download-section {
+    padding: 5rem 2rem;
+  }
+
+  .download-actions {
+    flex-direction: row;
+  }
+  .download-link {
+      min-width: 12rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .download-section {
+    padding: 6rem 2rem;
+  }
+  .download-panel {
+    max-width: 60rem;
+  }
 }
