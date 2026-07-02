@@ -8,7 +8,9 @@ function Navbar() {
     <header className="navbar">
 
       <div className="nav-logo">
+        <a href="#top">
        <span>DROP</span> THE LACES
+        </a>
       </div>
 
       <nav className={`nav-links ${open ? "active" : ""}`}>
