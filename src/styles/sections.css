@@ -42,7 +42,8 @@
   align-items: center;
   justify-content: center;
   height: 9rem;
-  width: 10rem;
+  width: 100%;
+  max-width: 10rem;
   border-radius: 1rem;
   border: 1px solid #e5e7eb;
   background-color: #ffffff;
@@ -208,6 +209,10 @@
   }
   .download-link {
     min-width: 12rem;
+  }
+  .brand-card {
+    width: 100%;
+    max-width: 8rem;
   }
 }
 
