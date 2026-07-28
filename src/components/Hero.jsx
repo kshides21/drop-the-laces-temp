@@ -9,7 +9,7 @@ function Hero() {
       <div className="hero-content">
 
         <p className="hero-label">
-          THE FUTURE OF LOCAL SNEAKER SHOPPING
+          THE WORLD'S FASTEST SNEAKER AND STREETWEAR DELIVERY PLATFORM
         </p>
         <h1>
           Find Your Next Pair.
